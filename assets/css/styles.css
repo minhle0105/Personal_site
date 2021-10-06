@@ -190,6 +190,10 @@ nav ul li {
   justify-content: center;
 }
 
+.project-link {
+  text-decoration: underline;
+}
+
 .projects-title {
   text-align: center;
   margin-bottom: 1rem;
