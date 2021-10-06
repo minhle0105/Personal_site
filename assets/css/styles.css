@@ -11,6 +11,7 @@
   --secondary-color: #ff7235;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #a17a69;
+  --zoom-color: #1464EAE0;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
@@ -331,6 +332,7 @@ footer {
 
 .icon-card:hover {
   transform: scale(1.1);
+  box-shadow: 3px 3px 20px 20px var(--zoom-color);
 }
 
 .project-card {
@@ -342,7 +344,8 @@ footer {
 }
 
 .project-card:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
+  box-shadow: 3px 3px 20px 20px var(--zoom-color);
 }
 
 /* Media queries for responsiveness */
