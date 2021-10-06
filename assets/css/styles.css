@@ -291,6 +291,10 @@ nav ul li {
   width: 2rem;
   height: 2rem;
 }
+
+.socicon:hover {
+  transform: scale(1.2);
+}
 /* Social button ends */
 
 /* Scroll to top button */
@@ -325,12 +329,20 @@ footer {
   margin: 10px;
 }
 
+.icon-card:hover {
+  transform: scale(1.1);
+}
+
 .project-card {
   background-color: #fff;
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
+}
+
+.project-card:hover {
+  transform: scale(1.1);
 }
 
 /* Media queries for responsiveness */
