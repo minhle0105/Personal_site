@@ -7,7 +7,7 @@
   --bold-font: 700;
   --bolder-font: 900;
   --bg-color: #fcfcfc;
-  --primary-color: #4756df;
+  --primary-color: rgba(71, 86, 223, 0.73);
   --secondary-color: #ff7235;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #a17a69;
@@ -265,8 +265,9 @@ nav ul li {
 }
 
 .submit-btn {
-  width: 100%;
-  padding: 10px;
+  width: 49%;
+  padding: 9px;
+  display: inline-block;
   margin: 10px 0;
   background-color: #fff;
   border: 2px solid var(--primary-color);
@@ -281,6 +282,31 @@ nav ul li {
   border: 2px solid var(--primary-color);
   cursor: pointer;
 }
+
+.clear-btn {
+  width: 50%;
+  padding: 9px;
+  display: inline-block;
+  margin: 10px 0;
+  background-color: #fff;
+  border: 2px solid #f55a5a;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: var(--bold-font);
+  transition: var(--transition);
+}
+
+.clear-btn:hover{
+  background-color: #f55a5a;
+  border: 2px solid #f55a5a;
+  cursor: pointer;
+}
+
+.btn-container {
+  display: block;
+  position: relative;
+}
+
 /* Contacts section ends */
 
 /* Social buttons */
